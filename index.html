@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Budget Tracker</h1>
+        <p>Track your income and expenses in one place.</p>
+    </header>
+
+    <main>
+        <section id="add-expense">
+            <h2>Add Expense</h2>
+
+            <input type="text" id="expense-name"
+                   placeholder="Expense name">
+
+            <input type="number" id="expense-amount"
+                   placeholder="Amount">
+
+            <select id="expense-category">
+                <option value="">Select category</option>
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Rent">Rent</option>
+                <option value="Education">Education</option>
+                <option value="Other">Other</option>
+            </select>
+        </section>
+
+        <section id="your-expenses">
+            <h2>Your Expenses</h2>
+            <p>No expenses yet.</p>
+        </section>
+    </main>
+
+</body>
+</html>
